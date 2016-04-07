@@ -1,0 +1,42 @@
+{
+  "name": "base32-converter",
+  "version": "0.0.1",
+  "description": "Multi-system base 32 <-> binary conversion.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgrusling/base32-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jgrusling/base32-converter/issues"
+  },
+  "author": {
+    "name": "JP Grusling",
+    "email": "jpgrusling@gmail.com"
+  },
+  "keywords": [
+    "base 32",
+    "base32",
+    "rfc4648",
+    "rfc2938",
+    "crockford",
+    "havi",
+    "base32hex",
+    "z-base-32"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5"
+  }
+}

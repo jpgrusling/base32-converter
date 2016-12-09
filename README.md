@@ -8,7 +8,7 @@ npm install base32-converter
 ## Usage
 ```javascript
 var Base32Converter = require('base32-converter');
-var converter = new ConvertBase(Base32Converter.system.RFC4648);
+var converter = new Base32Converter(Base32Converter.system.RFC4648);
 var val = converter.encode('10111');
 console.log(val); // prints 'X'
 console.log(converter.decode(val)); // prints '10111'
